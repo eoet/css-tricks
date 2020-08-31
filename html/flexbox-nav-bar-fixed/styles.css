@@ -1,3 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -25,5 +29,17 @@ input::placeholder {
 }
 .bar {
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  background: #eee;
+  padding: 20px;
+}
+
+.search {
+  flex: 1;
+}
+
+.search input {
+  width: 100%;
 }
